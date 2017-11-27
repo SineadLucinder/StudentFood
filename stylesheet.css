@@ -2,20 +2,40 @@
 
 * {
 	font-family: 'Helvetic', sans-serif;
-	background-color: skyblue;
+	
 }
 
  h1{
   font-family: 'Pacifico', cursive;
   text-align: center;
+  padding-top: 20px;
+  border-color: white;
+
  }
 
  h2{
   text-align: center;
+
  }
+
+ ul {
+ 	 padding: 10px;
+      background: rgba(0,0,0,0.5);
+
+ }
+
+a {
+  color: white;
+ font-family: 'Sintony', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
 
  header {
   text-align: center;
+  background: url("header.jpg");
+  background-size: cover;
+  height: 20%;
  }
 
  li {
