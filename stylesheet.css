@@ -5,6 +5,11 @@
 	
 }
 
+
+body {
+  background-color: antiquewhite;
+}
+
  h1{
   font-family: 'Pacifico', cursive;
   text-align: center;
@@ -29,6 +34,11 @@
  h3 {
   font-family: 'Pacifico', cursive;
   font-size: 40px;
+  text-align: center;
+ }
+
+ h4 {
+  font-family: 'Sintony', sans-serif;
  }
 
  ul {
@@ -50,6 +60,7 @@ a {
   background-size: cover;
   background-position: center;
   height: 250px;
+  padding-top: 15px;
  }
 
  li {
@@ -60,6 +71,6 @@ a {
 
 
  p {
-  
+  color: black;
  }
 
