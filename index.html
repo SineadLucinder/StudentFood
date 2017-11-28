@@ -8,7 +8,7 @@
  </title>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> 
+  <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> <!--check that it's linked to the right css-->
 
  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -19,26 +19,26 @@
 
 <body>
  <div class="container-fluid">
- <header> 
+ <header>
   <h1>Student Food</h1> <br>
-  <h2>A guide to Student Cooking</h2> 
-  
+  <h2>A guide to Student Cooking</h2>
+
 
   <ul> <!--Navigation Bar-->
 
     <li> <a href="Index.html">Home </a> </li>
     <li> <a href="Studentbudget.html">Student on a Budget </a> </li>
     <li> <a href="Restaurants.html">Restaurants in Durham </a> </li>
-    <li> <a href="vegetarian.html">Vegetarian Cooking</a> </li>
+    <li> <a href="vegetarian.html">Vegetarian / Vegan Cooking</a> </li>
     <li> <a href="cuisines.html">German Cooking</a> </li>
     <li> <a href="baking.html">Baking</a> </li>
     <li> <a href="Contact.html">Contact Us</a> </li>
-  
-    
+
+
   </ul>
 
 
-  
+
 </header>
 </div>
 
@@ -54,6 +54,19 @@
 <p>Hi, and welcome to Student Food - a guide to cooking for students at Durham University!
     This website has been created as our project for CFG:17/18.
   </p>
+
+<div id="map" style="width:400px;height:400px">
+  <script>
+  function myMap() {
+      var mapOptions = {
+          center: new google.maps.LatLng(54.7, 1.58),
+          zoom: 10,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+  </script>
+ <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 
 </div>
     <div class="col-md-2">
