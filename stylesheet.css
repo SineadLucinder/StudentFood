@@ -2,7 +2,7 @@
 
 * {
 	font-family: 'Helvetic', sans-serif;
-	
+
 }
 
  header {
@@ -76,5 +76,5 @@ a {
 
  p {
   color: black;
+	text-align: justify;
  }
-
