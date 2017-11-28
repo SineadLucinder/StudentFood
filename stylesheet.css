@@ -87,13 +87,23 @@ header ul {
 
  }
 
-a {
+ .subheader {
+  text-align: center;
+  font-family: 'Sintony', sans-serif;
+ }
+
+header a {
   color: white;
  font-family: 'Sintony', sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+
+}
 
 header li {
   display: inline;
