@@ -11,7 +11,7 @@
     font-size: 50px;
     margin-top: 20px;
     line-height: 40px;
-  } 
+  }
   h2 {
     font-size: 20px;
     margin: 20px 0 30px 0;
@@ -25,11 +25,11 @@
     font-size:20px;
     line-height: 24px;
   }
-  
+
   small {
     font-size: 16px;
   }
-  
+
   }
 
  header {
@@ -115,4 +115,11 @@ header li {
  p {
   color: black;
 	text-align: justify;
+ }
+
+ .twitter-hashtag-button {
+ }
+
+ #map {
+	 align-content: center;
  }
