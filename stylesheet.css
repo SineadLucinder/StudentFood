@@ -29,8 +29,7 @@
   small {
     font-size: 16px;
   }
-
-  }
+}
 
  header {
   text-align: center;
@@ -79,11 +78,12 @@ body {
 
  h4 {
   font-family: 'Sintony', sans-serif;
+  padding: 20px 20px 0px 20px;
  }
 
 header ul {
  	 padding: 10px;
-      background: rgba(0,0,0,0.5);
+   background: rgba(0,0,0,0.5);
 
  }
 
@@ -94,7 +94,7 @@ header ul {
 
 header a {
   color: white;
- font-family: 'Sintony', sans-serif;
+  font-family: 'Sintony', sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
@@ -111,15 +111,37 @@ header li {
   padding:12px;
  }
 
+.intro {
+  margin: 30px 35px 0px 40px;
+  width: 50%;
+  height: 10%;
+  border-radius: 20px;
+  border: 7px solid white;
 
+}
  p {
   color: black;
 	text-align: justify;
-	padding: 10px;
+	padding: 20px;
  }
 
+button {
+  margin: 20px;
+}
+.introp {
+  font-size: 13px;
+  font-family: 'Sintony', sans-serif;
+  margin: 0px 20px 0px 20px;
+  
+}
+
+article {
+  border: 7px solid white;
+  margin: 20px;
+}
  .twitter-hashtag-button {
- }
+ margin: 30px 0px 30px 0px;
+}
 
  #map {
 	 align-content: center;
