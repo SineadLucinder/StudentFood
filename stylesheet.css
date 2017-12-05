@@ -6,7 +6,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 200px) {
   h1 {
     font-size: 50px;
     margin-top: 20px;
@@ -21,6 +21,15 @@
   div {
     margin: 20px 12px 0 12px;
   }
+
+  .col-md-2 {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100% 
+  }
+
   p {
     font-size:20px;
     line-height: 24px;
@@ -39,6 +48,12 @@
   height: 250px;
   padding-top: 15px;
  }
+
+ img {
+  width: 100%
+  max-width: 200px; 
+ }
+
 
 
 body {
@@ -146,3 +161,7 @@ article {
  #map {
 	 align-content: center;
  }
+
+.class-md-2{
+  column-width: 100%;
+}
