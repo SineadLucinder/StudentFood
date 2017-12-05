@@ -33,6 +33,14 @@
 </head>
 
 <body>
+ <div id="fb-root"></div>
+   <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11';
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
  <div class="container-fluid">
   <header>
    <h1>Student Food</h1> <br>
@@ -54,7 +62,7 @@
 
  <div class="container-fluid">
    <div class="row">
-    <div class="col-md-2">
+    <div id="introsection" class="col-md-2">
       <img class="intro" src="catherine.jpg"><br/>
       <article class="introp"><p>Catherine is a 3rd Year Psychology student and her hobbies include drumming and video games.</p></article>
       <img class="intro" src="sinead.jpg"><br/>
@@ -114,7 +122,8 @@
 
     </div>
     <div class="col-md-2">
-      <a href="https://twitter.com/intent/tweet?button_hashtag=StudentFood&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #StudentFood</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/intent/tweet?button_hashtag=StudentFood&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #StudentFood</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br/>
+      <div class="fb-like" data-href="https://www.facebook.com/StudentFood-193956747838369/" data-width="80" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
     </div>
   </div>
 
