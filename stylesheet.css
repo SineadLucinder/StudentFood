@@ -23,13 +23,8 @@
   }
 
   header{
-    background-size: cover;
+    background-size: contain;
       }
-
-  .col-md-2 {
-    width: 100%;
-
-  }
 
   img {
     max-width: 100% 
