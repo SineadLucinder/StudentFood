@@ -6,64 +6,6 @@
 }
 
 
-@media (max-width: 450px) {
-
- 
-/* CANNOT MAKE THIS WORK - WANT TO HIDE PROFILES WHEN ON A SMALL SCREEN - It does work on my laptop*/
-  #introsection {
-    display: none;
-    columns: collapsable;
-  }
-
-  /* NEED TO CORRECT THE COL. CLASS ON MEDIA QUERY */
-
-    h1 {
-    font-size: 40px;
-    margin-top: 18px;
-    line-height: 30px;
-  }
-  h2 {
-    font-size: 15px;
-    margin: 10px 0 15px 0;
-    line-height: 30px;
-   }
-
-  div {
-    margin: 15px 10px 0 10px;
-  }
-
-  header{
-    background-size: contain;
-      }
-
-  header ul { /*doesnt do it though!! */
-   font-size: 10px;
-   padding: 10px;
-   background: rgba(0,0,0,0.5);
-
- }
-
-  img {
-    max-width: 100% 
-    height: auto;
-  }
-
-  p {
-    font-size:13px;
-    line-height: 22px;
-  }
-
-  small {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 800px) {
-   #introsection {
-    display: none;
-    columns: collapsable;
-  }
-}
 
 
  header {
@@ -193,4 +135,71 @@ article {
 
 .class-md-2{
   column-width: 100%;
+}
+
+ header ul li a {
+  font-size: 20px;
+ }
+
+
+ @media (max-width: 300px) {
+
+ 
+/* CANNOT MAKE THIS WORK - WANT TO HIDE PROFILES WHEN ON A SMALL SCREEN - It does work on my laptop*/
+  #introsection {
+    display: none;
+    columns: collapsable;
+  }
+
+  /* NEED TO CORRECT THE COL. CLASS ON MEDIA QUERY */
+
+    h1 {
+    font-size: 40px;
+    margin-top: 18px;
+    line-height: 30px;
+  }
+
+  h2 {
+    font-size: 15px;
+    margin: 10px 0 15px 0;
+    line-height: 30px;
+   }
+
+  div {
+    margin: 15px 10px 0 10px;
+  }
+
+  header{
+    background-size: contain;
+      }
+
+  header ul { /*doesnt do it though!! */
+   
+   padding: 10px;
+   background: rgba(0,0,0,0.5);
+
+ }
+
+
+
+  img {
+    max-width: 100% 
+    height: auto;
+  }
+
+  p {
+    font-size:13px;
+    line-height: 22px;
+  }
+
+  small {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+   #introsection {
+    display: none;
+    columns: collapsable;
+  }
 }
