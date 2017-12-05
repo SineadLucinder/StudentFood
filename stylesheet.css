@@ -158,13 +158,14 @@ header li {
   width: 100px;
   height: 100px;
   border-radius: 20px;
-  border: 5px solid white;
+  border: 5px solid lightblue;
 
 }
  p {
   color: black;
 	text-align: justify;
-	padding: 20px;
+	padding: 15px;
+  margin: 5px;
  }
 
 button {
@@ -173,7 +174,8 @@ button {
 .introp {
   font-size: 13px;
   font-family: 'Sintony', sans-serif;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 5px 0px 5px;
+  border: 3px solid lightblue;
   
 }
 
