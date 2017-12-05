@@ -6,7 +6,7 @@
 }
 
 
-@media (max-width: 200px) {
+@media (max-width: 100px) {
   h1 {
     font-size: 50px;
     margin-top: 20px;
@@ -22,12 +22,13 @@
     margin: 20px 12px 0 12px;
   }
 
-  .col-md-2 {
-    width: 100%;
-  }
+  header{
+    background-size: contain;
+      }
 
   img {
     max-width: 100% 
+    height: auto;
   }
 
   p {
