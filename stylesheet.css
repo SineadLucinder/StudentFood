@@ -6,7 +6,17 @@
 }
 
 
-@media (max-width: 100px) {
+@media (max-width: 321px) {
+
+ 
+/* CANNOT MAKE THIS WORK - WANT TO HIDE PROFILES WHEN ON A SMALL SCREEN */
+  .col-md-2 {
+    display: none;
+    columns: collapsable;
+  }
+
+  /* NEED TO CORRECT THE COL. CLASS ON MEDIA QUERY */
+
   h1 {
     font-size: 50px;
     margin-top: 20px;
